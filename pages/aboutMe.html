@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color: royalblue;">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"  href="../css/my.css" /> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<div class="row">
-    <div class="columns">
-        <div class="column">
-            <img src="../images/linkedinPhoto.jpg" alt="Picture of Alex Scarola" style="display: flex; margin-left: -10px; margin-bottom: -10px; margin-top: -10px; height: 110%;">
-        </div>
-        <div class="column">
-            <h1 style="font-family: arial black, sans-serif; text-align:right; margin-right: 42%; font-size: 400%; color: white">About Me</h1>
-            <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">If you are here looking for my resume, feel free to click the folder below to download it. Otherwise, keep reading to get to know more about me.</p>
-            <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">I will be graduating from The University of Colorado in May 2023 with a major in Computer Science and a minor in Education. I am currently a software engineer at Tolstoy Plant-Based Eatery working on an application for online food ordering. I am mostly known for my work with frontend design, but am always interested in gaining opportunities in other sectors of computer science. Always an opportunity for growth!</p>
-            <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">If I am not working I spend most of my time in a book, cooking, or spending checking out restaurants with friends. The book I am currently reading is Stranger Care by Sarah Sentilles. If you would like to get to know me more feel free to contact me at alexcscarola@gmail.com.</p>
-            <br>
-            <a href="/AlexandraClaireScarolaResume.docx" download>
-                <img src="../images/icons8-folder-64.png" alt="Resume" style="margin-top: 5%; height: 100px; display: block; margin-right: auto; margin-left: auto; color: white">
-            </a>
-            <!--<a href="/AlexandraClaireScarolaResume.docx" download>
-                <p style="line-height: 3px; font-family: monospace; text-align: center; font-size: 150%; color: white; padding-top: 0px; text-decoration:none;">Resume</p>
-            </a>-->
+<html style="overflow-y: scroll;">
+<header>
+    <div class="navbar-fixed-top">
+        <ul style="background-color: darkblue; height: 90px; list-style-type: none; margin: 0; padding: 0; width: 100%;">
+            <li style="float: left;" id="nav"><a href="../index.html" id="nava" ><img src="../images/AvatarMaker.svg" alt="Avatar" style="height: 60px; background-color: white; border-radius: 100px;"></a></li>
+            <li style="display: inline; float: right;" id="nav"><a href="socialmedia.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Social Media</a></li>
+            <li style="display: inline; float: right;" id="nav"><a href="interests.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Interests</a></li>
+            <li style="display: inline; float: right;" id="nav"><a href="projects.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Projects</a></li>
+            <li style="display: inline; float: right;" id="nav"><a href="aboutMe.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">About Me</a></li>
+        </ul>
+    </div>
+</header>
+
+<body style="background-color: royalblue; padding-top: 6%;" >
+
+    <div class="row">
+        <div class="columns">
+            <div class="column">
+                <img src="../images/linkedinPhoto.jpg" alt="Picture of Alex Scarola" style="display: flex; height: 150%; margin-top: 100;">
+            </div>
+            <div class="column" style="padding-top: 10%">
+                <h1 style="font-family: arial black, sans-serif; text-align:right; margin-right: 48%; font-size: 400%; color: white">About Me</h1>
+                <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">If you are here looking for my resume, feel free to click the folder below to download it. Otherwise, keep reading to get to know more about me.</p>
+                <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">I will be graduating from The University of Colorado in May 2023 with a major in Computer Science and a minor in Education. I am currently a software engineer at Tolstoy Plant-Based Eatery working on an application for online food ordering. I am mostly known for my work with frontend design, but am always interested in gaining opportunities in other sectors of computer science. Always an opportunity for growth!</p>
+                <p style=" font-family: arial black, sans-serif; color: white; font-size: 105%; margin-left: 14%; margin-right: 5%">If I am not working I spend most of my time in a book, cooking, or spending checking out restaurants with friends. The book I am currently reading is Stranger Care by Sarah Sentilles. If you would like to get to know me more feel free to contact me at alexcscarola@gmail.com.</p>
+                <br>
+                <a href="/AlexandraClaireScarolaResume.docx" download>
+                    <img src="../images/icons8-folder-64.png" alt="Resume" style="margin-top: 5%; height: 100px; display: block; margin-right: auto; margin-left: auto; color: white">
+                </a>
+                <!--<a href="/AlexandraClaireScarolaResume.docx" download>
+                    <p style="line-height: 3px; font-family: monospace; text-align: center; font-size: 150%; color: white; padding-top: 0px; text-decoration:none;">Resume</p>
+                </a>-->
+            </div>
         </div>
     </div>
-</div>
 
 </body>
 </html>
 
 <style>
     .columns {
-        Width: 100%;
+        width: 100%;
     }
     .column {
         width:100%;
@@ -39,6 +56,7 @@
             float:left;
         }
         .columns {
+            padding-top: 30;
             content: "";
             display: table;
             clear: both;

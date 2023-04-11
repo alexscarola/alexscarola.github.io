@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"  href="../css/my.css" /> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<html style="overflow-y: scroll;">
+<!--<header style="background-color: darkblue; height: 90px">
+    <a href="aboutMe.html" style="color: #fff">About Me</a>
+</header>-->
+<ul style="background-color: darkblue; height: 90px; list-style-type: none; margin: 0; padding: 0">
+    <li style="float: left;" id="nav"><a href="../index.html" id="nava" ><img src="../images/AvatarMaker.svg" alt="Avatar" style="height: 60px; background-color: white; border-radius: 100px;"></a></li>
+    <li style="display: inline; float: right;" id="nav"><a href="socialmedia.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Social Media</a></li>
+    <li style="display: inline; float: right;" id="nav"><a href="interests.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Interests</a></li>
+    <li style="display: inline; float: right;" id="nav"><a href="projects.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">Projects</a></li>
+    <li style="display: inline; float: right;" id="nav"><a href="aboutMe.html" id="nava" style="color: #fff; font-size: 23px; font-family: arial black, sans-serif; padding: 8px; text-align: center; display: block; float: left; padding-top: 24px; padding-right: 30px;">About Me</a></li>
+</ul>
+<body style="background-color: royalblue;">
+
+<h1 style="font-family: arial black, sans-serif; text-align:center; margin: 100px; font-size: 600%; color: white">Interests</h1>
+
+<h2 style="font-family: arial black, sans-serif; text-align:center; margin: 100px; color: white">A better look at what my interests are outside of Computer Science!</h2>
+
+<h3 style="font-family: arial black, sans-serif; text-align:center; margin: 100px; color: white">Hobbies</h3>
+<div class="cards" style="text-align: center;">
+    <div class="card">
+        <img src="../images/pancakes.jpeg" alt="Cooking with Alex" class="card-img-top" style="height: 200px; width: 250px">
+        <div class="card-body">
+            <h4>Cooking</h4>
+            <p>What better way is there to have a hobbie that you can taste! One of my favorite things to do is create various dishes in my free time</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal">Cooking</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/bookshelf.jpeg" alt="Reading with Alex" class="card-img-top" style="height: 200px; width: 250px">
+        <div class="card-body">
+            <h4>Reading</h4>
+            <p>Switching between non-fiction and fiction, I find amazing stories that imerse me into a different experience or way of thinking. Find out what some of my favorite books are!</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#readingModal">Reading</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/vienna.JPG" alt="Traveling with Alex" class="card-img-top" style="height: 200px;">
+        <div class="card-body">
+            <h4>Traveling</h4>
+            <p>Similar to reading, traveling allows me to get to experience our unique beautiful world. Luckily I have had the opportunity to experience some parts of it.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#travelingModal">Traveling</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/chess.jpeg" alt="Playing Games with Alex" class="card-img-top" style="height: 210px;">
+        <div class="card-body">
+            <h4>Games</h4>
+            <p>I have never had a moment where I turned down a game! Not sure if it is because of my competitive side, but I have never had a bad time playing a game.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#gamesModal">Games</button>
+        </div>
+    </div>
+</div>
+
+<h3 style="font-family: arial black, sans-serif; text-align:center; margin: 100px; color: white">Education Minor</h3>
+<div class="cards" style="text-align: center;">
+    <div class="card">
+        <img src="../images/cuBoulder.jpeg" alt="Education Minor" class="card-img-top" style="height: 190px;">
+        <div class="card-body">
+            <h4>Why Did I Chose This Minor?</h4>
+            <p>My minor at The University of Colorado Boulder is Education. I made this decision my sophmore year, and have loved every step of the way.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#whyModal">Find Out Why</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/boulderPrep.jpeg" alt="Fieldwork" class="card-img-top" style="height: 200px;">
+        <div class="card-body">
+            <h4>Fieldwork</h4>
+            <p>Through my minor, I got many opportunities to be involved in fieldwork. I worked alongside two different youth programs in Boulder that allowed me to do case studies with their adolescents.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#fieldworkModal">Fieldwork</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/SaveOurYouth.jpeg" alt="Save Our Youth" class="card-img-top" style="height: 200px;">
+        <div class="card-body">
+            <h4>Save Our Youth</h4>
+            <p>One of the internships I have been apart of during my college years was Save Our Youth. This progam supported disadvantaged kids in that area, and allowing them to get a set up in their education.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#internModal">Save Our Youth</button>
+        </div>
+    </div>
+</div>
+
+<h3 style="font-family: arial black, sans-serif; text-align:center; margin: 100px; color: white">Volunteering</h3>
+<div class="cards" style="text-align: center;">
+    <div class="card">
+        <img src="../images/dogCover.jpg" alt="Dog from Longmont Humane Society" class="card-img-top" style="height: 200px;">
+        <div class="card-body">
+            <h4>Longmont Humane Society</h4>
+            <p>As long as I can remember my dad has taken me to dog shelters to volunteer. We ended up finding a shelter we liked called Longmont Humane Society. We have been apart of this shelter ever since.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#dogsModal">Pictures of Dogs in Here!</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/haitiWork.JPG" alt="Alex doing volunteer work in Haiti" class="card-img-top" style="height: 205px;">
+        <div class="card-body">
+            <h4>Haiti</h4>
+            <p>Summer 2018 I went to Haiti with a volunteer group called Mission Discovery. We built benches and bunkbeds for the community, and in our spare time we spent time with the orphans that lived on the same site as us.</p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#haitiModal">More Information</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../images/thereWithCare.jpeg" alt="Working with There with Care handing out soup to the patients and their families." class="card-img-top" style="height: 200px;">
+        <div class="card-body">
+            <h4>There With Care Soup Kitchen</h4>
+            <p>One of my youngest memories with volunteering was with my family and I was just a kid. We were apart of a program that supported families that had kids with illnesses. It was an amazing program, and I have fond memories of volunteering with my family with There With Care. </p>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#soupModal">Care to Learn More</button>
+        </div>
+    </div>
+</div>
+
+<!--Modals for each card-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Cooking with Alex</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>People always ask me what my favorite dish is to cook, and I still yet to have an answer. I love to try new dishes all the time, so it is rare to catch me making the same dish twice. If you see me making a dish again, it must be held to a high standard for me. I mainly find my recipes through pintrest. One thing that I do enjoy making is fresh pasta with my mom.</p>
+                    <img src="../images/pasta.jpg" alt="Homemade pasta that I created from scratch" style="height: 150px; margin-left: 20px; margin-bottom: 20px; border-radius: 5px;">
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <img src="../images/eggs.jpg" alt="Deviled Eggs" style="height: 150px; margin-right: 20px; margin-bottom: 20px; border-radius: 5px;">
+                    <p>Fun fact about me is that I don't eat dairy, so that is one of the main things I look for when finding a recipe. My sister also does not eat meat, so when planning to cook for both of our dietary restrictions, it becomes a little difficult. One of our favorite recipes that we both thouroghly enjoy is a <a href="https://sallysbakingaddiction.com/best-black-bean-burgers/">black bean burger</a> that my sister introduced me to. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="readingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">My Favorite Books and What I am Currently Reading</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>My favorite book has been the same ever since 5th grade. Percy Jackson and the Lightning Theif by Rick Riordan. I do not know exactly why, but this book will always be held close to me. Other than that I seem to find myself switching back and forth between fiction and non-fiction. Of course I enjoy reading fiction the most, but I think it is important to also utilize reading as a source to gain knowledge as well as give yourself the tools to grow in different areas of your life. Reading is a powerful tool and it can be enjoyable as well as useful.</p>
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>As of todays date, April 6th, I have read 11 books, and hope to double that number by the end of this year. Some of my favorites for this year has been <a href="https://www.amazon.com/Midnight-Library-Novel-Matt-Haig/dp/0525559477">The Midnight Library by Matt Haig</a>, <a href="https://www.amazon.com/Stranger-Care-Memoir-Loving-What/dp/0593230035">Stranger Care by Sarah Sentilles</a>, <a href="https://www.amazon.com/Powerless-Lauren-Roberts/dp/B0BTJTHJYK/ref=asc_df_B0BTJTHJYK/?tag=hyprod-20&linkCode=df0&hvadid=647205179019&hvpos=&hvnetw=g&hvrand=15797846221115597288&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028818&hvtargid=pla-2022499208557&psc=1&gclid=Cj0KCQjw27mhBhC9ARIsAIFsETEy5hZl7c8wz-3LQ7NWDkVJR6jWInO57l-er62nwWvNMztRJd-UpP4aAtiJEALw_wcB">Powerless by Lauren Roberts</a>, and <a href="https://www.amazon.com/Defining-Decade-Your-Twenties-Matter/dp/0446561754">The Defining Decade by Meg Jay</a>. I am currently in the middle of reading <a href="https://www.amazon.com/Carrie-Soto-Back-Taylor-Jenkins/dp/0593158687">Carrie Soto is Back by Taylor Jenkins Reid</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="travelingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">A Glimpse into my Traveling Experiences</h5>
+            
+            </div>
+            <div class="modal-body">
+                <p>I have had the privlige to grow up and travel the world with my family at a young age. They taught me the importance of experiencing different cultures, and learning from different areas of the world. It is something I never want to stop doing. I have mainly traveled with my family, but recently got the chance to travel solo to Vienna, Bologna, Riomaggiore, Bratislava, Prauge, and Budapest. </p>
+                <div style="display:flex; flex-direction: row;">
+                    <img src="../images/bologna.jpeg" alt="A street in Bologna, Italy" style="height: 180px; margin-bottom: 20px; border-radius: 2px;">
+                    <img src="../images/riomargio.jpeg" alt="View of Riomargio from boat" style="height: 180px; margin-left: 10px; margin-bottom: 20px; border-radius: 2px;">
+                    <img src="../images/prague.jpeg" alt="Picture of Alex in Prague" style="height: 180px; margin-left: 10px; margin-bottom: 20px; border-radius: 2px;">
+                    <img src="../images/budapest.jpeg" alt="Capital of Budapest at Night" style="height: 180px; margin-left: 10px; margin-bottom: 20px; border-radius: 2px;">
+                </div>
+                <br>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>Another fun fact about me is that I used to live in Australia! My family moved there when I was a baby, and we lived there for two years. I do not remember any of it due to how young I was, but my parents have plenty of stories and pictures to remember it by. I always hope to go back and visit with them.</p>
+                    <img src="../images/australia.jpg" alt="Alex as a baby in Australia" style="height: 140px; margin-left: 30px; margin-bottom: 20px; border-radius: 2px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="gamesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Got Game?</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>Surprisngly one reason that I chose to major in computer science was the fact that it reminded me of playing games. The trivial situation surronding coding, and then being able to get your code to work always reminded me of the feeling of playing games. I have grown up playing every game imaginable. Board Games, Card Games, Video Games, and any more you can think of. Games are a way to get people together and have given some of the best laughs that I can remember.</p>
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>The most recent games I have plated are Uno, Farkle, Scattergories, Family Fued Online, and Twenty-One. You can always find me and my sister playing a game of chess during the holidays. One time we even played a game in Bryant Park where one of the more experts ended up giving my sister a tip on her next move! If you have any good game recommendations please reach out to me with the suggestion. Always looking for new games, but will never get tired of the classics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="whyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Why I Chose Education as my Minor?</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>I love my Computer Science major, but when it came to chosing my minor, I wanted to pick something that could leverage my major further than its general course. I chose Education because I think there is an importance with being able to share you knowledge with others. Throughout life you will find yourself constantly mentoring and helping others inside your field, and my education minor allows me to support the people around me best as I am able to.</p>
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>My education minor was just a way to give back to the community, and there are a lot of useful tools that come along with it. I am a better communicator due to this minor, a more patient and understanding individual. It has allowed me to grow some of my other skills that are not a big focus in the computer science field. You may understand how something works, but when it comes to sharing that with an individual who has little knowledge on that matter, it is tougher than you think.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fieldworkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Fieldwork in Boulder</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>Throughout my education minor journey I have been granted multiple opportunities to do fieldwork with local programs. This partnership allowed me to support the staff members and youth in the program as well as gather research for a fieldwork analysis on the psychology of youth in educational settings.</p>
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>The first program I worked with was The Boulder Housing Project, which was an after school program. Since it was a small site, I typically worked with two to three highschoolers where we focused on where they were in life.</p>
+
+                </div>
+                <p>The second program I worked with was Boulder Preparatory School. This was during school hours, and they have a nontraditional way for their typical school days. I would be assigned an activity to help out with and it could be anything from face painting to horror story workshops to basic car knowledge talks. I hope my work at both of these settings was as benefical for them as it was for me.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="internModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Education Internship</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>Save Our Youth is a non profit organization that I interned at over the summer of 2021. This program acted as a summer school for disadvantaged kids who needed extra help in certain areas of school, or just needed a support system outside of their home.</p>
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>This program had a vast range of ages at many different levels of learning. Alongside supporting them in their school endevours we also made it a point to share with them all the different career paths they could take in the future, and had discussions about each one of them. We also got the opportunity to share skills outside of their general education. I got the chance to talk about computer science, and lead a small activity relating to artifical intellegence.</p>
+                </div>
+                <p>Throughout the summer I was able to watch these kids grow emotionally and intellectually as well as create some great relationships with the kids. Sometimes all you need is a friend and some empathy to get you through your day. There were many chaotic stories to come out of it, but it was always an opportunity for me to grow, and them to learn.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="dogsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Longmont Humane Society</h5>
+            
+            </div>
+            <div class="modal-body">
+                <div style="display:flex; flex-direction: row;">
+                    <p>When I was younger I always wanted to be a vet, but I soon realized as I grew older that is not something I would be able to stomach. Nonetheless I have always enjoyed being around animals, and that is why my dad took me to volunteer at dog shelters from a young age. This is something we continued doing together for years to come, and luckily we found a great shelter to work with.</p>
+                </div>
+                <p>Volunteering at this shelter has been bittersweet because I meet so many wonderful dogs that I just want to take home with me, but sadly I can not adopt them all. The employees are just as great, as they treat the dogs as their own. Never a bad day when I am helping out there.</p>
+                <div style="display:flex; flex-direction: row;">
+                    <img src="../images/dog1.jpg" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; ">
+                    <img src="../images/dog2.jpg" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 10px;">
+                    <img src="../images/dog4.jpg" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 10px;">
+                    <img src="../images/dog3.jpg" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="haitiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">Haiti Summer 2018</h5>
+            
+            </div>
+            <div class="modal-body">
+                <p>In 2018 I was looking into doing a volunteer trip abroad. After doing some research to find some good programs, I found one called Mission Discovery. My dad decided to come along with me, and we joined a big group from Georgia on this trip to Haiti.</p>
+                <div style="display:flex; flex-direction: row; justify-content: center;">
+                    <img src="../images/haiti1.JPG" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 10px;">
+                    <img src="../images/haiti2.JPG" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 50px;">
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>Our group was staying on the same site as an orphanage and when we were not building bunkbeds and benches, we were playing games with the kids. Some people would be playing soccer with a group, but as I am not great with soccer I would typically hang around a group where we played music. The people we met there were amazing.</p>
+                    <img src="../images/haiti3.JPG" alt="One of the dogs from the Longmont Humane Shelter" style="height: 180px; margin-bottom: 20px; border-radius: 2px; margin-left: 10px; margin-right: 15px;">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="soupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModaalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="width: 30px; height: 30px;">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel" style="font-family: arial black, sans-serif; font-size: 200%; text-align: center;">There with Care</h5>
+            
+            </div>
+            <div class="modal-body">
+                <p>Since I was young, my family always volunteered with a group in Colorado called <a href="https://therewithcare.org">There with Care</a>. It was my first experience with volunteering. There with Care is an organization that supports families who have children facing critical illnesses. The main activity we would do is that we would pick up soup that was donated from different resturants, and serve it to the families at the hospital. Even though I was young, I will always remember how appreciative the families and patients were. This was a great organization to work with.</p>
+                <div style="display:flex; flex-direction: row; justify-content: center;">
+                </div>
+
+                <div style="display:flex; flex-direction: row;">
+                    <p>If any of what I said interests you feel free to look into the volunteering opportunities <a href="https://therewithcare.org/ways-to-help/volunteer/">here</a>. There is also always the option to donate which I will link <a href="https://therewithcare.org/ways-to-help/donate/">here</a>. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<style>
+    .body{
+        overflow: scroll;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin-top: -80px;
+    }
+    .card{
+        box-shadow: 0 3px 10px rgb(80, 80, 80);
+        cursor: pointer;
+        background-color: white;
+        width: 250px;
+        margin: 40px;
+        border-radius: 20px;
+        border-width: 1;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .card-body{
+        padding: 20px;
+    }
+    button{
+        padding: 10px;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        display: block;
+        font-family: arial black, sans-serif;
+        font-size: 100% !important;
+        width: 140px;
+        white-space: normal !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    button:hover{
+        color: #fff !important;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+</style>
